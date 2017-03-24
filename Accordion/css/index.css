@@ -1,0 +1,88 @@
+*{margin:0;padding:0;list-style: none;}
+body{
+	/*position: relative;*/
+	/*overflow: hidden;*/
+}
+
+
+/*背景图片*/
+.bgbox{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.bgbox:nth-child(1){background: url(../images/1.jpg) no-repeat center/100% 100%;
+}
+.bgbox:nth-child(2){background: url(../images/2.jpg) no-repeat center/100% 100%;
+}
+.bgbox:nth-child(3){background: url(../images/3.jpg) no-repeat center/100% 100%;
+}
+.bgbox:nth-child(4){background: url(../images/4.jpg) no-repeat center/100% 100%;
+}
+
+
+/*手风琴图片*/
+#wrap{
+	width: 1090px;
+	height: 429px;
+	position: absolute; /*5马分尸式居中必要元素*/
+	top:0;				/*5马分尸式居中必要元素*/
+	left:0;				/*5马分尸式居中必要元素*/
+	bottom: 0;			/*5马分尸式居中必要元素*/
+	right:0;			/*5马分尸式居中必要元素*/
+	margin:auto;		/*5马分尸式居中必要元素*/
+	overflow: hidden;
+	box-shadow: 0 0 9px #333;
+	border-radius: 10px;
+}
+#wrap ul{width: 120%;}
+#wrap li{
+	width: 100px;
+	height: 429px;
+	float: left;
+}
+#wrap ul li:nth-child(1){
+	background: url(../images/1.jpg);
+}
+#wrap ul li:nth-child(2){ 
+	background: url(../images/2.jpg);
+}
+#wrap ul li:nth-child(3){
+	background: url(../images/3.jpg);
+}
+#wrap ul li:nth-child(4){
+	background: url(../images/4.jpg);
+	width: 789px;
+}
+
+
+/*蒙层*/
+#wrap ul li div{
+	width: 100px;
+	height: 429px;
+	background: rgba(0,0,0,.5);
+}
+#wrap ul li div p{
+	padding:0 40px;
+	color:#fff;
+	font: 100%/1.3 'Kalam', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
